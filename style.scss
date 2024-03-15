@@ -1,11 +1,15 @@
-/* Define standard variables and values for website */
-$bgcolor: lightblue;
-$textcolor: darkblue;
-$fontsize: 18px;
+$myFont: Helvetica, sans-serif;
+$myColor: black;
+$myFontSize: 18px;
+$myWidth: 680px;
+$myDisplay:inline;
 
-/* Use the variables */
 body {
-  background-color: $bgcolor;
-  color: $textcolor;
-  font-size: $fontsize;
-}     
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+}
+
+#container {
+  width: $myWidth;
+}    

@@ -1,7 +1,13 @@
 
 
 body {
-    background-color: lightblue;
-    color: darkblue;
+    font-family: Helvetica, sans-serif;
     font-size: 18px;
-  }                  
+    color: black;
+  }
+  
+  #container {
+    display:inline;
+    width: 680px;
+    border: 1px blue double;
+  }                               
